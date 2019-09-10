@@ -1,12 +1,12 @@
-module.exports = function(str1) {
-  var b = 0;
-  var a = [];
-  for (var i = 0; i < str1.length; i++) {
-    if (str1[i].sales >= b) {
-      b = str1[i].sales;
-      a = str1[i].department;
+module.exports = function(items) {
+  var count = 0;
+  var newArray = [];
+  for (var i = 0; i < items.length; i++) {
+    if (items[i].sales >= count) {
+      count = items[i].sales;
+      newArray = items[i].department;
     }
   }
-  return a;
+  return newArray;
 };
 
