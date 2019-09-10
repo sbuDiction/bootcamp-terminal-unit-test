@@ -1,29 +1,29 @@
 {
-    "name": "bootcamp-terminal-unit-test",
-    "version": "1.0.0",
-    "description": "",
-    "main": "countAllFromTown.js",
-    "directories": {
-      "test": "test"
-    },
-    "scripts": {
-      "test": "node_modules/mocha/bin/mocha"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sbuDiction/bootcamp-terminal-unit-test.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/sbuDiction/bootcamp-terminal-unit-test/issues"
-    },
-    "homepage": "https://github.com/sbuDiction/bootcamp-terminal-unit-test/blob/master/README.md",
-    "dependencies": {
-      "chalk": "^2.4.2"
-    },
-    "devDependencies": {
-      "mocha": "^6.2.0"
-    }
+  "name": "bootcamp-terminal-unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "countAllFromTown.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbuDiction/bootcamp-terminal-unit-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbuDiction/bootcamp-terminal-unit-test/issues"
+  },
+  "homepage": "https://github.com/sbuDiction/bootcamp-terminal-unit-test/blob/master/README.md",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
   }
+}
